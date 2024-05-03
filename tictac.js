@@ -4,8 +4,6 @@ let winnerBox = document.querySelector('.win-container');
 let msg = document.querySelector('#winner');
 let newBtn = document.querySelector('#new-btn');
 
-
-
 let turnO = true;
 
 const winPatterns = [
@@ -18,8 +16,6 @@ const winPatterns = [
     [3,4,5],
     [6,7,8],
 ];
-
-
 
 boxes.forEach((box) =>{
     box.addEventListener('click', ()=>{
@@ -81,15 +77,3 @@ const resetGame = ()=>{
 
 newBtn.addEventListener('click', resetGame);
 reset.addEventListener('click', resetGame);
-
-
-
-
-
-
-
-
-
-
-
-
